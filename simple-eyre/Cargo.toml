@@ -1,21 +1,19 @@
 [package]
 name = "simple-eyre"
 version = "0.3.1"
-authors = ["Jane Lusby <jlusby@yaah.dev>"]
-edition = "2018"
-license = "MIT OR Apache-2.0"
-readme = "README.md"
-repository = "https://github.com/yaahc/simple-eyre"
-homepage = "https://github.com/yaahc/simple-eyre"
 documentation = "https://docs.rs/simple-eyre"
-keywords = ["error"]
-description = """
-One of the simplest error reporters one can build ontop of eyre, defining only an error report
-"""
+description = "One of the simplest error reporters one can build ontop of eyre, defining only an error report"
+
+authors = { workspace = true }
+edition = { workspace = true }
+license = { workspace = true }
+repository = { workspace = true }
+readme = { workspace = true }
+rust-version = { workspace = true }
 
 [dependencies]
 eyre = "0.6.0"
-indenter = "0.3.0"
+indenter = { workspace = true }
 
 [package.metadata.docs.rs]
 all-features = true
